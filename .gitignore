@@ -6,6 +6,22 @@ __pycache__/
 # C extensions
 *.so
 
+
+
+# CNN
+Labs/CNN/data/
+
+# LSTM
+Labs/LSTM/data/
+
+
+# VS Code
+.vscode/
+.DS_Store
+Labs/.DS_Store
+
+
+
 # Distribution / packaging
 .Python
 build/
