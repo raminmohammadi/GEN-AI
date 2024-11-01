@@ -197,3 +197,15 @@ def validate_decoder(decoder, vocab_tgt_size, embed_dim=64, units=50):
         f"Attention weights shape mismatch. Expected: {expected_att_wgts_shape}, Got: {att_wgts.shape}")
 
   print("Decoder checks passed!") # If no errors are raised, the check has passed
+
+def test_model_loss(test_loss, min_val_loss=0.095):
+  """Tests if the model achieved at least the minimum test loss.
+
+  Args:
+      test_accuracy: The accuracy of the model on the test data.
+      min_val_loss: The minimum required validation loss.
+
+  Raises:
+      AssertionError if the minimum validation loss is not met.
+  """
+  assert test_loss <= min_val_loss, f"Model did not achieve minimum test loss of {min_val_loss:.2f}, achieved {test_loss:.2f}"
