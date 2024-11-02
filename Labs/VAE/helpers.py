@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import tensorflow as tf
 
 def plot_denoised_images(model, x_train, x_train_noisy, num_images=10):
   """
@@ -34,3 +35,15 @@ def plot_denoised_images(model, x_train, x_train_noisy, num_images=10):
 
   fig.tight_layout()
   plt.show()
+
+# Generate new faces
+def plot_faces(latent_dim, decoder, n=10):
+    random_latent_vectors = tf.random.normal(shape=(n, latent_dim))
+    generated_images = decoder.predict(random_latent_vectors)
+    plt.figure(figsize=(20, 4))
+    for i in range(n):
+        ax = plt.subplot(1, n, i + 1)
+        plt.imshow(generated_images[i])
+        plt.axis("off")
+    plt.show()
+    
