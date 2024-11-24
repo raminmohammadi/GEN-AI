@@ -1,0 +1,14 @@
+tensorflow
+transformers
+numpy
+matplotlib
+tqdm
+seaborn
+datasets
+pandas
+scikit-learn
+nltk
+gym
+imageio
+tensorflow_datasets
+pytest
