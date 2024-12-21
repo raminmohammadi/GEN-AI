@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import tensorflow as tf
+import seaborn as sns
 
 class LanguageIndex():
     def __init__(self, lang):
@@ -111,7 +112,7 @@ def plot_attention_weights(attention, sentence, idx):
     plt.show()
 
 # Function to preprocess the input text
-def preprocess_input_text(text):
+def preprocess_input_text(text, tokenizer):
     # Tokenize and convert the input text to sequences
     sequences = tokenizer.texts_to_sequences([text])
     # Pad the sequence to ensure it has the same length as the training data
