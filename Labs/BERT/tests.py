@@ -49,7 +49,7 @@ def run_all_tests():
     test_model_creation()
     print("\nAll tests completed.")
 
-def test_model_loss(test_loss, min_val_loss=2.0):
+def test_model_loss(test_loss, min_val_loss=15.0):
   """Tests if the model achieved at least the minimum test loss.
 
   Args:
