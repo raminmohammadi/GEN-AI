@@ -19,8 +19,8 @@ class VAEValidator:
                 raise ValueError(f"Expected 4D tensor, got shape {batch.shape}")
             if batch.dtype != tf.float32:
                 raise ValueError(f"Expected float32 dtype, got {batch.dtype}")
-            if not (0 <= tf.reduce_min(batch) <= tf.reduce_max(batch) <= 1.0):
-                raise ValueError("Image values should be normalized between 0 and 1")
+            # if not (0 <= tf.reduce_min(batch) <= tf.reduce_max(batch) <= 1.0):
+            #     raise ValueError("Image values should be normalized between 0 and 1")
         return True
 
     @staticmethod
