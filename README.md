@@ -47,4 +47,4 @@ We hope you find these resources helpful and enjoy your journey into the world o
 [![Star History Chart](https://api.star-history.com/svg?repos=raminmohammadi/GEN-AI&type=Date)](https://star-history.com/#raminmohammadi/GEN-AI&Date)
 
 ## Contributors
-[![MLOPs contributors](https://contrib.rocks/image?repo=raminmohammadi/MLOps)](https://github.com/raminmohammadi/GEN-AI/graphs/contributors)
+[![MLOPs contributors](https://contrib.rocks/image?repo=raminmohammadi/GEN-AI)](https://github.com/raminmohammadi/GEN-AI/graphs/contributors)
