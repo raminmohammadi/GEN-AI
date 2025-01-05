@@ -6,6 +6,29 @@ __pycache__/
 # C extensions
 *.so
 
+
+
+# CNN
+Labs/CNN/data/
+
+# LSTM
+Labs/LSTM/data/
+
+# GAN
+Labs/GAN/data/
+Labs/GAN/checkpoints/*
+
+# VS Code
+.vscode/
+.DS_Store
+Labs/.DS_Store
+
+# Vector Databases
+Labs/Vector Databases/data/Flickr8k/*/txt
+Labs/Vector Databases/data/
+
+
+
 # Distribution / packaging
 .Python
 build/
