@@ -1,13 +1,41 @@
+[![pages-build-deployment](https://github.com/raminmohammadi/GEN-AI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/raminmohammadi/GEN-AI/actions/workflows/pages/pages-build-deployment)
+
+
 # Generative AI Course Labs and Reading Materials
 
+## Overview
+Welcome to the Generative AI Course at Northeastern University! This repository contains the labs and reading materials designed to help you grasp the concepts and applications of generative AI. Throughout this course, you'll explore foundational and advanced techniques, gain practical experience through hands-on labs, and delve into various generative models. You can learn more on Machine learning topics by watching my videos on [Youtube](https://www.youtube.com/channel/UCCGbsdfmgmhMLs-tjOtOp0Q) or visit my [Website](https://www.mlwithramin.com/).
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Course Description](#course-description)
+- [Lab Content](#lab-content)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Introduction
-Welcome to the Generative AI Course at Northeastern University! This repository contains the labs and reading materials designed to help you grasp the concepts and applications of generative AI. Throughout this course, you'll explore foundational and advanced techniques, gain practical experience through hands-on labs, and delve into various generative models.
+Generative AI, or GenAI, refers to a class of artificial intelligence technologies that can generate new content, ranging from text and images to music and code, based on patterns it learns from vast amounts of data. This technology uses advanced machine learning models, such as neural networks, to understand the underlying structure and elements of the input data and then uses this understanding to create original, plausible outputs that are similar in nature but novel in content. GenAI holds significant potential across various fields, including creative arts, where it can assist in designing unique artworks, in software development, where it can write code, and in business, where it can generate reports or innovative product ideas. Its ability to automate and enhance creative processes makes it a valuable tool for boosting productivity and fostering innovation.
 
 ## Course Description
-In the "Generative AI" course, you'll not only explore foundational techniques like Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs), but also delve into cutting-edge advancements such as Diffusion Models, Reinforcement Learning with Human Feedback (RLHF), and Graph Neural Networks (GNNs). You'll receive in-depth theoretical insights into these models, accompanied by practical exercises to reinforce your understanding. Through hands-on projects, you'll learn to harness the power of Diffusion Models for high-quality image synthesis, implement RLHF techniques to optimize generative processes with human input, and leverage Graph Neural Networks to generate structured outputs from graph-structured data. By mastering these advanced techniques, you'll be equipped to tackle real-world challenges across diverse domains, from computer vision and natural language processing to social network analysis and recommendation systems.
+The Gen-AI course at Northeastern University is designed to provide students with a comprehensive understanding of the Gen-AI field. Throughout the course, students will learn how to:
+
+- **Introductory Materials**: Neural Networks (NNs), Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs) — foundational concepts and applications.
+- **Transformers and AutoRegressive Models**: Learn advanced sequence modeling and generation techniques.
+- **Energy-Based Models and Score-Based Models**: Explore models that learn the probability distribution of data.
+- **Flow Normalization**: Understand techniques for improving model training stability and performance.
+- **Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs)**: Explore foundational techniques to understand their mechanisms and applications.
+- **Diffusion Models**: Dive into cutting-edge advancements for high-quality image synthesis through hands-on projects.
+- **Reinforcement Learning with Human Feedback (RLHF)**: Learn to implement RLHF techniques to optimize generative processes with human input.
+- **Graph Neural Networks (GNNs)**: Harness GNNs to generate structured outputs from graph-structured data.
+- **Theoretical Insights**: Receive in-depth theoretical knowledge of these models.
+- **Practical Exercises**: Reinforce your understanding through practical exercises.
+- **Hands-On Projects**: Tackle real-world challenges in computer vision, natural language processing, social network analysis, and recommendation systems by mastering these advanced techniques.
+
 
 ### Prerequisites
-- IE 7300, CS 6400 with minimum grades of C+
+- IE 7300, or any other machine learning course with minimum grades of C+
 - Proficiency with Python programming
 - Experience with TensorFlow
 - Knowledge in Linear Algebra, Probability, and Statistics
