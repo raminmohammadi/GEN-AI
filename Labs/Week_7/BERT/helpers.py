@@ -39,7 +39,7 @@ def plot_training_history(history):
 
     
     # Set the style for better visualization
-    plt.style.use('seaborn')
+    # plt.style.use('seaborn')
     
     # Create a figure with multiple subplots
     fig = plt.figure(figsize=(15, 10))
