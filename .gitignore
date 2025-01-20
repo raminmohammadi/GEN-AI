@@ -36,6 +36,8 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+env/
+env_gpu/
 .eggs/
 lib/
 lib64/
