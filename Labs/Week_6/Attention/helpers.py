@@ -96,23 +96,25 @@ def plot_metrics(history):
     plt.show()
 
 # Function to plot the attention weights
-def plot_attention_weights(attention, sentence, idx):
-    fig, ax = plt.subplots(figsize=(8, 6))
-    sns.heatmap(attention[idx], annot=True, cmap='viridis', ax=ax)
-    # ax.matshow(attention[idx], cmap='viridis', )
+def plot_attention_weights(attention, sentence, idx=None, annotate=True):
+    if idx:
+        attention = attention[idx]
+    fig, ax = plt.subplots(figsize=(28, 26))
+    sns.heatmap(attention, annot=annotate, cmap='viridis', ax=ax, fmt="")  # Ensure formatting is consistent
 
-    ax.set_xticks(range(len(sentence)))
-    ax.set_yticks(range(len(sentence)))
+    # Set ticks in the middle of each cell
+    ax.set_xticks([x + 0.5 for x in range(len(sentence))])  # Shift x-ticks to the middle of the cells
+    ax.set_yticks([y + 0.5 for y in range(len(sentence))])  # Shift y-ticks to the middle of the cells
 
-    ax.set_xticklabels(sentence, rotation=90)
-    ax.set_yticklabels(sentence)
+    ax.set_xticklabels(sentence, rotation=90)  # Center labels horizontally and vertically
+    ax.set_yticklabels(sentence, rotation=360)  # No rotation needed, center labels
 
     ax.set_xlabel('Attention for each word in input')
     ax.set_ylabel('Attention by each word in input')
     plt.show()
 
 # Function to preprocess the input text
-def preprocess_input_text(text, tokenizer):
+def preprocess_input_text(text, tokenizer, max_len):
     # Tokenize and convert the input text to sequences
     sequences = tokenizer.texts_to_sequences([text])
     # Pad the sequence to ensure it has the same length as the training data
