@@ -2,7 +2,6 @@
 import numpy as np
 import pytest
 
-@pytest.fixture
 def test_preprocess_data(x_train_processed, y_train_processed, x_test_processed, y_test_processed):
     # Check normalization
     assert np.max(x_train_processed) <= 1.0 and np.min(x_train_processed) >= 0.0, "Training data should be normalized"
