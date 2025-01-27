@@ -1,3 +1,4 @@
+import platform
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
@@ -5,7 +6,7 @@ import imageio
 import os
 
 def detect_and_set_device():
-    if tf.test.is_built_with_cuda():
+    if tf.test.is_built_with_cuda() or platform.system() == "Darwin":
         physical_devices = tf.config.list_physical_devices('GPU')
         if len(physical_devices) > 0:
             print("GPU is available. Using GPU.")
