@@ -22,8 +22,8 @@ def detect_and_set_device():
     return 'CPU'
 
 # Loads the Fashion MNIST dataset
-def load_data():
-    data_dir = 'data'
+def load_data(data_dir: str):
+    data_dir = data_dir
     files = [
         'train-images-idx3-ubyte.gz',
         'train-labels-idx1-ubyte.gz',
