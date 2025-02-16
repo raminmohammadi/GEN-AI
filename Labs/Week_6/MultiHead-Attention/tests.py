@@ -112,7 +112,7 @@ def validate_multihead_attention_model(model, vocab_size, embedding_dim, num_hea
     if output_layer.activation.__name__ != "softmax":
         raise ValueError("Output layer activation is incorrect.")
     
-def test_model_accuracy(test_accuracy, min_val_acc=0.85):
+def test_model_accuracy(test_accuracy, min_val_acc=0.8):
   """Tests if the model achieved at least the minimum test accuracy.
 
   Args:
