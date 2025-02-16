@@ -1,10 +1,11 @@
+import platform
 import tensorflow as tf
 from tensorflow.keras.datasets import imdb
 import matplotlib.pyplot as plt
 
 # Detects and sets the device to be used for training
 def detect_and_set_device():
-    if tf.test.is_built_with_cuda():
+    if tf.test.is_built_with_cuda() or platform.system() == "Darwin":
         physical_devices = tf.config.list_physical_devices('GPU')
         if len(physical_devices) > 0:
             print("GPU is available. Using GPU.")
