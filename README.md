@@ -1,7 +1,7 @@
 [![pages-build-deployment](https://github.com/raminmohammadi/GEN-AI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/raminmohammadi/GEN-AI/actions/workflows/pages/pages-build-deployment)
 
 
-# Generative AI Course Labs and Reading Materials
+# IE 7650 - Generative AI
 
 ## Overview
 Welcome to the Generative AI Course at Northeastern University! This repository contains the labs and reading materials designed to help you grasp the concepts and applications of generative AI. Throughout this course, you'll explore foundational and advanced techniques, gain practical experience through hands-on labs, and delve into various generative models. You can learn more on Machine learning topics by watching my videos on [Youtube](https://www.youtube.com/channel/UCCGbsdfmgmhMLs-tjOtOp0Q) or visit my [Website](https://www.mlwithramin.com/).
