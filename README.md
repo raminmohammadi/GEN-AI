@@ -19,7 +19,7 @@ Welcome to the Generative AI Course at Northeastern University! This repository 
 Generative AI, or GenAI, refers to a class of artificial intelligence technologies that can generate new content, ranging from text and images to music and code, based on patterns it learns from vast amounts of data. This technology uses advanced machine learning models, such as neural networks, to understand the underlying structure and elements of the input data and then uses this understanding to create original, plausible outputs that are similar in nature but novel in content. GenAI holds significant potential across various fields, including creative arts, where it can assist in designing unique artworks, in software development, where it can write code, and in business, where it can generate reports or innovative product ideas. Its ability to automate and enhance creative processes makes it a valuable tool for boosting productivity and fostering innovation.
 
 ## Course Description
-The Gen-AI course at Northeastern University is designed to provide students with a comprehensive understanding of the Gen-AI field. Throughout the course, students will learn how to:
+The Deep Generative Models course at Northeastern University is designed to provide students with a comprehensive understanding of the Gen-AI field. Throughout the course, students will learn how to:
 
 - **Introductory Materials**: Neural Networks (NNs), Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs) — foundational concepts and applications.
 - **Transformers and AutoRegressive Models**: Learn advanced sequence modeling and generation techniques.
