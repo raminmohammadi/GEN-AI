@@ -67,7 +67,8 @@ The reading materials of this repository were collected from the internet under 
 ## License
 This repository is licensed under the MIT License. For more details, please refer to the LICENSE file.
 
----
+**NEU-Specific Restriction:**  
+While the MIT License applies generally, the use, reproduction, or distribution of this content for the same or similar courses **within Northeastern University (NEU)** is **strictly prohibited** without prior written permission.
 
 We hope you find these resources helpful and enjoy your journey into the world of Generative AI! For any questions or support, please contact the course instructor or teaching assistant.
 
