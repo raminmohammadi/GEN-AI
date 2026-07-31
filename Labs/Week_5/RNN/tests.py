@@ -11,6 +11,19 @@ def check_max_seq_length(max_seq_length, required_length=None):
             required_length = 200
             print(f"No GPU detected (CPU mode). Required max_seq_length: {required_length}")
 
+
+def check_max_seq_length(max_seq_length, required_length=200):
+    """
+    Checks whether the maximum sequence length is set to at least the required length.
+    If not, raises a ValueError.
+
+    Args:
+        max_seq_length (int): The current maximum sequence length.
+        required_length (int, optional): The required minimum length. Defaults to 5000.
+
+    Raises:
+        ValueError: If max_seq_length is less than the required_length.
+    """
     if max_seq_length < required_length:
         raise ValueError(f"Max sequence length is too short: {max_seq_length} (< {required_length}). "
                          f"Please set max_seq_length to at least {required_length}.")
